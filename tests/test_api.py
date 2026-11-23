@@ -1,10 +1,10 @@
 from importlib.metadata import version
 
 import pytest
-from app.model import MODEL_ID, MODEL_REVISION
 from fastapi.testclient import TestClient
 
 from app import main
+from app.model import MODEL_ID, MODEL_REVISION
 
 
 class StubClassifier:
